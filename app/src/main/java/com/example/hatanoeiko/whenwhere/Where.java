@@ -9,7 +9,7 @@ import java.util.Random;
 public class Where {
     String sentence;
     ArrayList <String> wherewords = new ArrayList<String>();
-    void where(int a){
+    void where(){
         addToArray();
         Random rn = new Random();
         int n = rn.nextInt();

@@ -1,16 +1,13 @@
 package com.example.hatanoeiko.whenwhere;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.content.Intent;
-import android.widget.Button;
+import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 
 
 public class First extends AppCompatActivity {
@@ -28,10 +25,9 @@ public class First extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+/*
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +36,7 @@ public class First extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        */
     }
 
     @Override
